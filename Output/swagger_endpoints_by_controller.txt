@@ -1,0 +1,63 @@
+Controller: Account
+------------------------------------------
+Method | Path
+------------------------------------------
+| GET | paths['/api/Account']
+| GET | paths['/api/Account/email']
+| POST | paths['/api/Account/login']
+| POST | paths['/api/Account/register']
+| GET | paths['/api/Account/ConfirmEmail']
+| GET | paths['/api/Account/address']
+| PUT | paths['/api/Account/address']
+| GET | paths['/api/Account/GetAllUsers']
+
+Controller: Basket
+------------------------------------------
+Method | Path
+------------------------------------------
+| GET | paths['/api/Basket']
+| POST | paths['/api/Basket']
+| DELETE | paths['/api/Basket']
+
+Controller: Buggy
+------------------------------------------
+Method | Path
+------------------------------------------
+| GET | paths['/api/Buggy/testauth']
+| GET | paths['/api/Buggy/notFound']
+| GET | paths['/api/Buggy/serverError']
+| GET | paths['/api/Buggy/badRequest']
+| GET | paths['/api/Buggy/badRequest/{id}']
+
+Controller: Excel
+------------------------------------------
+Method | Path
+------------------------------------------
+| POST | paths['/api/Excel/export']
+
+Controller: Orders
+------------------------------------------
+Method | Path
+------------------------------------------
+| POST | paths['/api/Orders']
+| GET | paths['/api/Orders']
+| GET | paths['/api/Orders/{id}']
+| GET | paths['/api/Orders/delivery']
+
+Controller: Payments
+------------------------------------------
+Method | Path
+------------------------------------------
+| POST | paths['/api/Payments/{basketId}']
+| POST | paths['/api/Payments/webHook']
+
+Controller: Products
+------------------------------------------
+Method | Path
+------------------------------------------
+| GET | paths['/api/Products/get-products-without-pagination']
+| GET | paths['/api/Products']
+| GET | paths['/api/Products/{id}']
+| GET | paths['/api/Products/brands']
+| GET | paths['/api/Products/types']
+
